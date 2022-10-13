@@ -1,17 +1,14 @@
 Fan Threshold
 ===
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/)](https://www.codacy.com/gh/Scene-Collective/ps4-fan-threshold/dashboard)
 
 ## Synopsis
-Sets the temperature threshold where the fan will kick into turbo.
-
-For the payloads built with the most recent firmware supported visit [this repo].
+Sets the temperature threshold where the fan will kick into turbo (Currently 60 degrees Celsius/140 Fahreneit).
 
 ## Notes
-- Contribute translations for the decription in `meta.json`
-- Requires being built with the [Scene Collective Payload SDK]
-- Supports any firmware that the SDK supports
+- Requires being built with the SDK files provided by SpecterDev (currently in development)
+- Supports any firmware that the SDK supports (ranging currently from 3.00 to 4.51)
 
-[//]: #
-  [Scene Collective Payload SDK]: <https://github.com/Scene-Collective/ps4-payload-sdk>
-  [this repo]: <https://github.com/Scene-Collective/ps4-payload-repo>
+## Credits
+Al Azif (Scene-Collective) for original code (maybe also LM, i have no idea who started this first)
+
+LeGend for beta testing
